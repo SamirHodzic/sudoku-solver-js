@@ -1,6 +1,6 @@
 {
   "name": "sudoku-solver-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sudoku solver in javascript.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SamirHodzic/sudoku-solver"
+    "url": "https://github.com/SamirHodzic/sudoku-solver-js"
   },
   "keywords": [
     "javascript",

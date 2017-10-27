@@ -2,6 +2,7 @@
 
 > Simple Sudoku solver in javascript.
 
+[![npm-url][npm-url-svg]][npm-url]
 [![build-url][build-url-svg]][build-url]
 [![Dev Dependencies][dev-dependencies]][dev-dependencies-url]
 [![Dependencies][dependencies]][dependencies-url]
@@ -32,7 +33,7 @@ Output:
 
 ```javascript
 var SudokuSolver = require('sudoku-solver-js');
-var puzzle = '001700509573024106800501002700295018009400305652800007465080071000159004908007053';
+var puzzle = '..17..5.9573.241.68..5.1..27..295.18..94..3.56528....7465.8..71...159..49.8..7.53';
 
 solver.solve(puzzle, { result: 'string' })
 
@@ -58,3 +59,5 @@ $ npm test
 [dependencies-url]: https://david-dm.org/samirhodzic/sudoku-solver-js
 [dev-dependencies]: https://david-dm.org/samirhodzic/sudoku-solver-js/dev-status.svg
 [dev-dependencies-url]: https://david-dm.org/samirhodzic/sudoku-solver-js?type=dev
+[npm-url-svg]: https://img.shields.io/npm/v/sudoku-solver-js.svg
+[npm-url]: https://www.npmjs.com/package/sudoku-solver-js
