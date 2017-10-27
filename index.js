@@ -53,7 +53,8 @@ function SudokuSolver() {
   /*
   * Start solving the game for provided puzzle and options.
   */
-  this.solve = function (puzzle, options = {}) {
+  this.solve = function (puzzle, options) {
+		options = options || {};
     var result = options.result || 'string';
 
     var start = new Date().getTime();
