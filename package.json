@@ -1,6 +1,6 @@
 {
   "name": "sudoku-solver-js",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Sudoku solver in javascript.",
   "main": "index.js",
   "scripts": {
